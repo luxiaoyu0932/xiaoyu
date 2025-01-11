@@ -67,7 +67,7 @@
       "type": "tproxy",
       "tag": "tproxy-in",
       "listen": "0.0.0.0",
-      "listen_port": 7895,
+      "listen_port": 7899,
       "sniff": true,
       "sniff_override_destination": false,
       "comment": "原先 tun 改成 tproxy"
