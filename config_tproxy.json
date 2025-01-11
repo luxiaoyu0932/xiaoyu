@@ -4,7 +4,6 @@
     "level": "info",
     "timestamp": true
   },
-
   "experimental": {
     "clash_api": {
       "external_controller": "0.0.0.0:9095",
@@ -20,7 +19,6 @@
       "store_fakeip": false
     }
   },
-
   "dns": {
     "servers": [
       {
@@ -47,11 +45,9 @@
         "disable_cache": true
       },
       {
-        "clash_mode": "Direct",
         "server": "dns_direct"
       },
       {
-        "clash_mode": "Global",
         "server": "dns_proxy"
       },
       {
@@ -66,19 +62,15 @@
     ],
     "final": "dns_proxy"
   },
-
   "inbounds": [
     {
-      // ========== 由原先的 "tun" 改为 "tproxy" ==========
       "type": "tproxy",
       "tag": "tproxy-in",
       "listen": "0.0.0.0",
       "listen_port": 7895,
       "sniff": true,
-      // 若需要自动还原目标地址以便透明代理，可打开：
-      "sniff_override_destination": false
-      // 上述字段是 tproxy inbound 常见的写法；原 tun inbound 里的
-      // address/auto_route/auto_redirect 等参数对 tproxy 不适用，可移除。
+      "sniff_override_destination": false,
+      "comment": "原先 tun 改成 tproxy"
     },
     {
       "type": "mixed",
@@ -101,7 +93,6 @@
       ]
     }
   ],
-
   "outbounds": [
     {
       "tag": "🚀 节点选择",
@@ -657,7 +648,6 @@
       "type": "dns"
     }
   ],
-
   "route": {
     "auto_detect_interface": true,
     "final": "🐠 漏网之鱼",
@@ -670,11 +660,9 @@
         "action": "hijack-dns"
       },
       {
-        "clash_mode": "direct",
         "outbound": "🎯 全球直连"
       },
       {
-        "clash_mode": "global",
         "outbound": "GLOBAL"
       },
       {
