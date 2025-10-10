@@ -1,11 +1,11 @@
 # Some rules for emby
-DOMAIN,lite.cn2gias.uk
-DOMAIN,cf.imetyou.top 
-DOMAIN,cavps.eu.org
-DOMAIN,emby.aikan.la
-DOMAIN,emby.aikan.cloud
-DOMAIN,emby.haitunt.org
-DOMAIN,random.ouonet.org
-DOMAIN,aikan.la
-DOMAIN,aikan.cloud
+DOMAIN-SUFFIX,lite.cn2gias.uk
+DOMAIN-SUFFIX,cf.imetyou.top 
+DOMAIN-SUFFIX,cavps.eu.org
+DOMAIN-SUFFIX,emby.aikan.la
+DOMAIN-SUFFIX,emby.aikan.cloud
+DOMAIN-SUFFIX,emby.haitunt.org
+DOMAIN-SUFFIX,random.ouonet.org
+DOMAIN-SUFFIX,aikan.la
+DOMAIN-SUFFIX,aikan.cloud
 DOMAIN-REGEX,(?i)emby|tsukimi
