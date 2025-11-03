@@ -23,13 +23,14 @@ DOMAIN-SUFFIX,miqk.cc
 DOMAIN-SUFFIX,xiaomiai.site
 DOMAIN-SUFFIX,wogg.net
 DOMAIN-SUFFIX,xxooo.cf
-DOMAIN-SUFFIX,xsayang.fun:12512
+DOMAIN-SUFFIX,xsayang.fun
 
 # 域名关键字匹配
 DOMAIN-KEYWORD,tencent
 DOMAIN-KEYWORD,qq
 DOMAIN-KEYWORD,wogg
 DOMAIN-KEYWORD,xxooo
+DOMAIN-KEYWORD,xsayang
 
 # === IP ===
 IP-CIDR,203.205.136.0/24,no-resolve
