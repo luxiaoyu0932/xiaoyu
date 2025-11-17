@@ -3,6 +3,8 @@
 # 路由器 IP: 192.168.123.1
 
 # 域名后缀匹配 (DNS 服务商域名)
+DOMAIN-SUFFIX,muou.site
+DOMAIN-SUFFIX,muou.asia
 DOMAIN-SUFFIX,xsayang.fun
 DOMAIN-SUFFIX,tencent.com
 DOMAIN-SUFFIX,qq.com
@@ -26,6 +28,7 @@ DOMAIN-SUFFIX,wogg.net
 DOMAIN-SUFFIX,xxooo.cf
 
 # 域名关键字匹配
+DOMAIN-KEYWORD,muou
 DOMAIN-KEYWORD,tencent
 DOMAIN-KEYWORD,qq
 DOMAIN-KEYWORD,wogg
