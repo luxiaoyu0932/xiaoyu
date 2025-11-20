@@ -3,6 +3,7 @@
 # 路由器 IP: 192.168.123.1
 
 # 域名后缀匹配 (DNS 服务商域名)
+DOMAIN-SUFFIX,okemby.org
 DOMAIN-SUFFIX,214521.xyz
 DOMAIN-SUFFIX,yydsys.cc
 DOMAIN-SUFFIX,yydsys.top
