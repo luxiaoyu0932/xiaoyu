@@ -44,6 +44,10 @@ IP-CIDR,192.168.0.0/16,no-resolve
 IP-CIDR,10.0.0.0/8,no-resolve
 IP-CIDR,172.16.0.0/12,no-resolve
 IP-CIDR,127.0.0.0/8,no-resolve
+IP-CIDR6,::1/128,DIRECT,no-resolve
+IP-CIDR6,fc00::/7,DIRECT,no-resolve
+IP-CIDR6,fe80::/10,DIRECT,no-resolve
+IP-CIDR6,ff00::/8,DIRECT,no-resolve
 IP-CIDR,203.205.136.0/24,no-resolve
 IP-CIDR,203.205.254.0/24,no-resolve
 IP-CIDR,119.28.0.0/16,no-resolve
