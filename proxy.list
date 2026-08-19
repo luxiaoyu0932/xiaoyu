@@ -1,6 +1,8 @@
 # 代理补充列表
 
 # 域名后缀匹配
+DOMAIN-SUFFIX,kdns.fr
+DOMAIN-SUFFIX,wn4k.com
 DOMAIN-SUFFIX,nyaa.si
 DOMAIN-SUFFIX,missav.ai
 DOMAIN-SUFFIX,wiki.metacubex.one
