@@ -3,6 +3,12 @@
 # 路由器 IP: 192.168.123.1
 
 # 域名后缀匹配 (DNS 服务商域名)
+DOMAIN-SUFFIX,qkpanso.com
+DOMAIN-SUFFIX,meijumi.net
+DOMAIN-SUFFIX,dapanso.com
+DOMAIN-SUFFIX,qwmkv.com
+DOMAIN-SUFFIX,qwnull.com
+DOMAIN-SUFFIX,4kzn.cc
 DOMAIN-SUFFIX,888484.xyz
 DOMAIN-SUFFIX,xhban.xyz
 DOMAIN-SUFFIX,okemby.org
